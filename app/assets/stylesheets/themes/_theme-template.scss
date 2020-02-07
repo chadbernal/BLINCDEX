@@ -462,8 +462,7 @@
                         font-family: "AvenirLTStd-Medium", arial, sans-serif;
                         color: $bl-grey !important;
                         font-size: 14px;
-                        position: relative;
-                        // right:500px;
+                        position: relative; // right:500px;
                         padding-top: 18px;
                         margin-top: 0px;
                     }
@@ -512,7 +511,8 @@
                         .symbol-text {
                             position: relative;
                             bottom: 7px;
-                            font-family: "AvenirLTStd-Medium", arial, sans-serif; // color:$bl-green !important;
+                            font-family: "AvenirLTStd-Medium", arial, sans-serif;
+                            // color:$bl-green !important;
                             font-size: 12px;
                         }
                         .symbol-text {
@@ -1031,6 +1031,11 @@
             font-family: "AvenirLTStd-Medium", arial, sans-serif;
             color: #f7053f !important;
             font-size: 12px;
+        }
+    }
+    .electron-navigation {
+        .menu-bar {
+            display: none !important;
         }
     }
     // BLINC THEME==================================================================

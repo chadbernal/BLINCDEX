@@ -173,10 +173,7 @@ class LoginSelector extends React.Component {
                                     );
                                 }}
                             >
-                                <span className="logininstead">
-                                    {" "}
-                                    Login Instead
-                                </span>
+                                <span className="logininstead"> Login</span>
                             </span>
                         </div>
 
